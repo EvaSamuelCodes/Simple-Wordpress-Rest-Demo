@@ -21,8 +21,8 @@ class MediaMind {
     function RegisterEndpoints() {
 
         $Endpoints = [
-          ['methods' => 'GET', 'callback' => [$this, 'Index']],
-          ['methods' => 'GET', 'callback' => [$this, 'AliensHaveLanded']],
+            ['methods' => 'GET', 'callback' => [$this, 'Index']],
+            ['methods' => 'GET', 'callback' => [$this, 'AliensHaveLanded']],
         ];
 
         foreach ($Endpoints as $Endpoint) {
@@ -31,7 +31,7 @@ class MediaMind {
     }
 
     function Index() {
-        $junk = ['monkey' => 'pants', 'sloth' => 'tie dye','fish'=>'rain coat'];
+        $junk = ['monkey' => 'pants', 'sloth' => 'tie dye', 'fish' => 'rain coat'];
         return rest_ensure_response($junk);
     }
 
