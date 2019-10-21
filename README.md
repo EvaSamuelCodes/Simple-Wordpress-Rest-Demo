@@ -1,4 +1,4 @@
-# MediaMind
+# Simple Wordpress Rest Demo
 Just messing around with wordpress rest functionality. It's pretty easy to use.
 
 This one creates two endpoints:
